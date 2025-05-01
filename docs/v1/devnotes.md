@@ -10,3 +10,85 @@ wysylajac mu skille powiązane z requirementem.
 Tym razem spróbuję tez z embeddingiem danych z KG
 Druga wersja projektu to tzw vibe coding. Troche mnie to pochlonelo. Za duzo tresci, 
 za duzo niejasnosci i chaosu
+
+## 2025-04-29
+### Opcje przypisania step -- skill
+
+#### GraphCypherQAChain
+- uzyj OpenAI do wygenerowania cypher query
+- przeszukaj graf
+
+
+#### Semantic Search
+pre-compute embeddings for each skill node (using its name or description) 
+and use a vector store (e.g. FAISS or Neo4jVector) to match a textual step.
+
+```python
+from langchain.embeddings import OpenAIEmbeddings
+from langchain.vectorstores import FAISS
+
+# Assume `skill_names` is a list of all skill node names from the graph
+embeddings = OpenAIEmbeddings(model_name="text-embedding-3-small")
+skill_store = FAISS.from_texts(skill_names, embeddings)
+
+step_text = "Divide both sides by 2"
+matches = skill_store.similarity_search(step_text, k=1)
+print("Best matching skill:", matches[0].page_content)
+
+```
+This finds the skill node whose description or name is closest in meaning 
+to the solution step. In Neo4j 5.18+, one can also use `Neo4jVector.from_existing_graph(...)`
+to embed and index nodes within Neo4j itself.
+
+##### Embedding Workflow - testing
+- Extract Texts:
+    - From Neo4j: combine Requirement + Goal into a single string per node.
+    - Example: "Requirement: Add Fractions | Goal: Add fractions with unlike denominators"
+- Embed & Index:
+    - Use OpenAIEmbeddings via langchain_openai.
+    - Index with FAISS from langchain_community.vectorstores.
+- Store:
+    - vector_index.save_local("faiss_index/")
+
+semantic Querying
+- Use vector_index.similarity_search_with_score(query, k=5)
+to retrieve semantically similar requirements + goals to a natural language step or user input.
+- L2 similarity
+
+> Tip: store embeddings inside a Neo4j vector index
+
+#### Graph RAG
+- retreive all
+- filter the retrival
+- not the best results
+- slow
+
+
+
+#### Graph RAG and Vector search
+using graph DB queries alongside the vector search
+- langchain GraphRetriever with Vectors: Index node descriptions and use something like LangChain’s GraphRetriever or a two-step retriever. First, retrieve semantically relevant skills via vector search; second, traverse edges on those nodes to get neighboring skills. This can combine the LLM’s natural language understanding with structured KG links​
+
+> idea: retreive the goals via vector similarity, then expand via graph connections
+
+
+## 2025-05-01
+
+### RAG prompts
+
+
+The ideas of how to augment the retreived skills to the prompt
+Augmentation Type | Description | Example 
+---|---|---
+Text chunks | Injecting full or partial documents | "Here’s what the textbook says: ..."
+Structured lists | Feeding in entities or options from a DB/graph | "Here are all the relevant skills: [...]"
+Few-shot examples | Retrieved past examples to guide LLM | "See how these problems were solved..."
+Embeddings filtering | Retrieved results based on vector similarity, fed into prompt | "The closest requirements were: [...]"
+Schema-constrained | Prompt is extended with a structure or schema and definitions | "Only answer using this JSON format using these keys."
+
+
+Ideas: 
+- count the number of tokens
+- langchchain `mapreduce` - `langchain_chains.summarize`
+- later, add the common strategies for problem solving
+    - for example, in Poland we learn an algorithm to find zeroes of a quadratic function, use f(x)=ax+b notation for function's coeeficients.

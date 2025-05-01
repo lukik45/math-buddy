@@ -36,6 +36,7 @@ on their own. The User's skill tree is updated according to the user's feedback
 - Python as a main programming language
 - FastAPI as an api connecting all the components
 - OpenAI api as LLM and embedding models
+- Langchain as a tool for LLM chains
 - Neo4j as the knowledge graph
 - SQLlite as a relational database (users, user progress)
 - no UI in the mvp

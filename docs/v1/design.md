@@ -140,7 +140,8 @@ Actors: Student, Solver, LLM, Matcher, API, UserInterface (cmd for now)
 - Solver asks Matcher to match the solution steps to the skills
 - Matches returns matched skills *(the method not yet determined)
 - solver extends the Solution with skills
-
+- solver asks LLM to verify the skills
+- LLM returns the verified solution to the solver
 - solver returns `SolutionWithSkills` json to the api
 - api returns the json to the UserInterface
  
@@ -155,14 +156,16 @@ sequenceDiagram
 
     Student ->> UserInterface: enters a problem
     UserInterface ->> API: calls to solve the problem
-    API ->> Solver: calls Solver to generate solution
-    Solver ->> LLM: requests step-by-step solution
+    API ->> Solver: requests step-by-step solution
+    Solver ->> LLM: generates solution steps
     LLM -->> Solver: returns Solution (JSON)
-    Solver ->> Matcher: matches solution steps to skills
+    Solver ->> Matcher: match steps to skills
     Matcher -->> Solver: returns matched skills
+    Solver ->> LLM: verify skills for each step
+    LLM -->> Solver: returns verified SolutionWithSkills
     Solver -->> API: returns SolutionWithSkills (JSON)
     API -->> UserInterface: returns SolutionWithSkills (JSON)
-    UserInterface -->> Student: displays the solution
+    UserInterface -->> Student: displays the verified solution with skills
 
 ```
 
@@ -172,3 +175,38 @@ sequenceDiagram
 This is the biggest challenge. One working solution, developed and tested in prototype1, was to query the graph for all the requirements first, and then to create the prompt with the requirements, and then LLM when solves the problem, has to also incliude the most relevant requirements to the solution steps. 
 
 next, the graph is quieried to retreive all the skills connected to the requirements chosen by the LLM in the first phase, and then the second LLM message is formulated, with two mappings: step --> requirements and requirement --> skills. This way the LLM can find the skills from the KG that are needed to solve the solution step.
+
+
+### Proposed solutions
+
+#### Embeddings + RAG
+0. Create skill embeddings
+
+1. LLM solves the problem step-by-step.
+    - hint
+    - solution
+    - skills (`instruction: "list the skills needed to solve the step"`)
+
+1. Matcher:
+    - for each skill, having the solution-step context, matches top `k` similar skills from the base (filter by a grade, maybe add the weights - the more recent grade the better - experiment later)
+    - return the dict for the whole solution:
+        ```json
+        {
+            1: {
+                "hint": "...",
+                "solution": "...",
+                "skills":[
+                    "skill_desc": "...",
+                    "retreived_skills":[
+                        "neo4jid": "skill_desc",
+                        "neo4jid":"skill_desc",
+                        ...                       
+                    ]
+                ]  
+            },
+            2: ...
+
+        }
+        ```
+1. LLM
+    - prompted with the augmented data (solution), choses these skills that are really relevant, ensuring the correctness of the skills.
