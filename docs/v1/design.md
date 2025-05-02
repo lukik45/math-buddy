@@ -91,39 +91,37 @@ Solution is a json structured as follows
         {
             "step_number": 1,
             "hint": "A hint that helps without giving away the full solution",
-            "solution": "The complete solution for this step"
-        },
-        {
-            "step_number": 2,
-            "hint": "...",
-            "solution": "..."
-        }
-    ]
-}
-```
-#todo: optional - think of extending the json with skills needed to solve the step
-
-
-### SolutionWithSkills
-```json
-
-{
-    "steps": [ 
-        {
-            "step_number": 1,
-            "hint": "A hint that helps without giving away the full solution",
             "solution": "The complete solution for this step",
-            "skills": [
-                "neo4jid1", "neo4jid2"
-            ]
+            "skills": ["skill1", "skill2", "..."]
         },
         {
             "step_number": 2,
             "hint": "...",
             "solution": "...",
-            "skills": ["..."]
+            "skills": ["skill1", "skill2", "..."]
         }
     ]
+}
+```
+
+
+### SolutionWithRetreivedSkills
+```json
+{
+    1: {
+        "hint": "...",
+        "solution": "...",
+        "skills":[
+            "skill_desc": "...",
+            "retreived_skills":[
+                "neo4jid": "skill_desc",
+                "neo4jid":"skill_desc",
+                ...                       
+            ]
+        ]  
+    },
+    2: ...
+
 }
 ```
 
@@ -189,24 +187,7 @@ next, the graph is quieried to retreive all the skills connected to the requirem
 
 1. Matcher:
     - for each skill, having the solution-step context, matches top `k` similar skills from the base (filter by a grade, maybe add the weights - the more recent grade the better - experiment later)
-    - return the dict for the whole solution:
-        ```json
-        {
-            1: {
-                "hint": "...",
-                "solution": "...",
-                "skills":[
-                    "skill_desc": "...",
-                    "retreived_skills":[
-                        "neo4jid": "skill_desc",
-                        "neo4jid":"skill_desc",
-                        ...                       
-                    ]
-                ]  
-            },
-            2: ...
+    - return the dict for the whole solution: `SolutionWithRetreivedSkills`
 
-        }
-        ```
 1. LLM
     - prompted with the augmented data (solution), choses these skills that are really relevant, ensuring the correctness of the skills.
