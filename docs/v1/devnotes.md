@@ -103,3 +103,9 @@ Ideas:
 
 - add custom id - `node_id` to the nodes in the graph in form of `skill-4-000001`
 
+
+- install GDS plugin and add to the settings
+```
+dbms.security.procedures.unrestricted=gds.*
+dbms.security.procedures.allowlist=gds.*
+```

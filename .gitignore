@@ -2,3 +2,6 @@
 .venv
 .env
 data_processing/data
+__pycache__
+logs.db
+math_buddy.egg-info
