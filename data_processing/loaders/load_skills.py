@@ -13,8 +13,8 @@ BASE_DIR = Path(__file__).resolve().parent
 PROCESSED_DIR = BASE_DIR / ".." / "data" / "04_processed_data"
 
 # === Grades you want to process ===
-# GRADES_TO_PROCESS = ['4', '5', '6', '7', '8']
-GRADES_TO_PROCESS = ['4']
+GRADES_TO_PROCESS = ['4', '5', '6', '7', '8']
+# GRADES_TO_PROCESS = ['4']
 
 def determine_level(grade):
     """

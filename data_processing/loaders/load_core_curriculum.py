@@ -12,7 +12,7 @@ NEO4J_DATABASE = "neo4j"  # You can change this if using multiple databases
 BASE_DIR = Path(__file__).resolve().parent
 FILES = [
     BASE_DIR / ".." / "data" / "04_processed_data" / "realizacja_podstawy_4_6.json",
-    # BASE_DIR / ".." / "processed_data" / "realizacja_podstawy_7_8.json"
+    BASE_DIR / ".." / "data" / "04_processed_data" / "realizacja_podstawy_7_8.json"
 ]
 
 # === Neo4j Importer ===
