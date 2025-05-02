@@ -20,7 +20,7 @@ class SolutionGenerator:
         result = chain.invoke({"problem": problem})
         return Solution(**result)
     
-    def refine(self, solution_steps: List) -> Solution:
+    def refine(self, solution_steps: List) -> Dict:
         
         parser = JsonOutputParser(pydantic_object=SolutionRefined)
         prompt = ChatPromptTemplate.from_messages([
@@ -30,4 +30,6 @@ class SolutionGenerator:
         chain = prompt | self.llm | parser
         
         result = chain.invoke({"problem": solution_steps})
-        return Solution(**result)
+        print('result:::::')
+        print(result)
+        return result
