@@ -1,5 +1,14 @@
+fastapi
+uvicorn
+neo4j
+sqlalchemy
+pydantic
+pydantic-settings
+python-dotenv
+openai
+langchain
 langchain-openai
 langchain-community
-neo4j
 streamlit
 requests
+pytest
