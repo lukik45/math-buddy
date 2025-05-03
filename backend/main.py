@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from backend.core.config import settings
-from backend.db.base import engine, Base
+# from backend.db.base import engine, Base
 from backend.services.matcher import SkillMatcher
 from backend.db.neo4j import Neo4jClient
 from backend.api.v1.solve import router as solve_router
@@ -8,7 +8,7 @@ from backend.api.v1.solve import router as solve_router
 
 
 # Create SQL tables
-Base.metadata.create_all(bind=engine)
+# Base.metadata.create_all(bind=engine)
 
 # Define lifespan function to replace deprecated on_event decorators
 async def lifespan(app: FastAPI):

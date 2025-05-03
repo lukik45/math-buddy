@@ -25,15 +25,15 @@ def solve_problem(problem_text: str):
     print(steps_with_skills)
     refined_solution = solutionGenerator.refine(steps_with_skills)
     
-    db = SessionLocal()
-    log = ProblemLog(
-        problem=problem_text,
-        solution=json.dumps(steps_with_skills),
-        refined_solution=json.dumps(refined_solution),
-        created_at=datetime.utcnow()
-    )
-    db.add(log)
-    db.commit()
-    db.close()
+    # db = SessionLocal()
+    # log = ProblemLog(
+    #     problem=problem_text,
+    #     solution=json.dumps(steps_with_skills),
+    #     refined_solution=json.dumps(refined_solution),
+    #     created_at=datetime.utcnow()
+    # )
+    # db.add(log)
+    # db.commit()
+    # db.close()
     # neo4j.close()
     return refined_solution
