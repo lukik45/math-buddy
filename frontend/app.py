@@ -10,7 +10,7 @@ problem = st.text_area("Enter your problem:",
 
 if st.button("Solve Problem"):
     # url = "http://127.0.0.1:8000/api/v1/solve"
-    url = "http://backend:8000/api/v1/solve"
+    url = "http://backend:8000/solve"
     headers = {
         "accept": "application/json",
         "Content-Type": "application/json"
