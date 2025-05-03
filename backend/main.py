@@ -23,7 +23,7 @@ async def lifespan(app: FastAPI):
     app.state.neo4j.close()
 
 # Instantiate FastAPI with lifespan handler
-app = FastAPI(title=settings.APP_NAME, lifespan=lifespan)
+app = FastAPI(title=settings.APP_NAME, lifespan=lifespan, root_path="/api/v1" )
 
 # Include API router
-app.include_router(solve_router, prefix="/api/v1")
+app.include_router(solve_router)
