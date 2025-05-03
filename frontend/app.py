@@ -9,7 +9,8 @@ problem = st.text_area("Enter your problem:",
     "Monika i Janek mają razem 100 kasztanów. Monika ma o 30 więcej kasztanów niż Janek. Ile kasztanów ma Monika, a ile Janek? Zadanie w czwartej klasie. Uczniowie nie znają wyrażeń algebraicznych")
 
 if st.button("Solve Problem"):
-    url = "http://127.0.0.1:8000/api/v1/solve"
+    # url = "http://127.0.0.1:8000/api/v1/solve"
+    url = "http://backend:8000/api/v1/solve"
     headers = {
         "accept": "application/json",
         "Content-Type": "application/json"
