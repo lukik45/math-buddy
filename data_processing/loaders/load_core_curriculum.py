@@ -2,10 +2,11 @@ from neo4j import GraphDatabase
 from pathlib import Path
 import json
 
+from backend.core.config import settings
 # === Neo4j Configuration ===
-NEO4J_URI = "bolt://localhost:7687"
-NEO4J_USERNAME = "neo4j"
-NEO4J_PASSWORD = "password"  # Change this!
+NEO4J_URI = settings.NEO4J_URI
+NEO4J_USERNAME = settings.NEO4J_USER
+NEO4J_PASSWORD = settings.NEO4J_PASSWORD
 NEO4J_DATABASE = "neo4j"  # You can change this if using multiple databases
 
 # === Paths ===
