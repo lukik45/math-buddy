@@ -8,6 +8,8 @@ class Settings(BaseSettings):
     SQLALCHEMY_DATABASE_URL: str = "sqlite:///./logs.db"
     OPENAI_API_KEY : str = "yourkey"
     
+    LLM_MODEL: str = 'gpt-4o-mini'
+    
     CREATE_EMBEDDINGS : bool = True
 
     class Config:

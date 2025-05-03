@@ -7,7 +7,7 @@ from typing import List, Dict
 
 class SolutionGenerator:
     def __init__(self):
-        self.llm = ChatOpenAI(model="gpt-4", api_key=settings.OPENAI_API_KEY)
+        self.llm = ChatOpenAI(model=settings.LLM_MODEL, api_key=settings.OPENAI_API_KEY)
 
 
     def generate(self, problem: str) -> Solution:
