@@ -1,0 +1,397 @@
+[
+  {
+    "level": "7-8",
+    "number": 1,
+    "name": "I. Potęgi o podstawach wymiernych . Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "zapisuje iloczyn jednakowych czynników w postaci potęgi o wykładniku całkowitym dodatnim"
+      },
+      {
+        "number": 2,
+        "name": "mnoży i dzieli potęgi o wykładnikach całkowitych dodatnich"
+      },
+      {
+        "number": 3,
+        "name": "mnoży potęgi o różnych podstawach i jednakowych wykładnikach"
+      },
+      {
+        "number": 4,
+        "name": "podnosi potęgę do potęgi"
+      },
+      {
+        "number": 5,
+        "name": "odczytuje i zapisuje liczby w notacji wykładniczej a ·1 0 k, gdzie 1  a < 10 , k jest liczbą całkowitą."
+      }
+    ]
+  },
+  {
+    "level": "7-8",
+    "number": 2,
+    "name": "II. Pierwiastki. Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "oblicza wartości pierwiastków kwadratowych i sześciennych z liczb, które są odpowiednio kwadratami lub sześcianami liczb wymiernych;"
+      },
+      {
+        "number": 2,
+        "name": "szacuje wielkość danego pierwiastka kwadrat owego lub sześci ennego oraz wyrażenia arytmetycznego zawierającego pierwiastki;"
+      },
+      {
+        "number": 3,
+        "name": "p orównuje wartość wyrażenia arytmetycznego zawierającego pierwiastki z daną liczbą wymierną oraz znajduje liczby wymierne większe lub mniejsze od takiej wartości, np. znajduje liczbę całkowitą taką, że≤ √ 137 <+ 1"
+      },
+      {
+        "number": 4,
+        "name": ") oblicza pierwiastek z iloczynu i ilorazu dwóch liczb, wyłącza czynnik przed znak pierwiastka i włącza liczbę pod znak pierwiastka;"
+      },
+      {
+        "number": 5,
+        "name": ") mnoży i dzieli pierwiastki tego samego stopnia;"
+      }
+    ]
+  },
+  {
+    "level": "7-8",
+    "number": 3,
+    "name": "III. Tworzenie wyrażeń algebraicznych z jedną i z wieloma zmiennymi. Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "zapisuje wyniki podanych działań w postaci wyrażeń algebraicznych jednej lub kilku zmiennych;"
+      },
+      {
+        "number": 2,
+        "name": "oblicza wartości liczbowe wyrażeń algebraicznych;"
+      },
+      {
+        "number": 3,
+        "name": "zapisuje zależności przedstawione w zadaniach w postaci wyrażeń algebraicznych jednej lub kilku zmiennych;"
+      },
+      {
+        "number": 4,
+        "name": "zapisuje rozwiązania zadań w postaci wyrażeń algebraicznych;"
+      }
+    ]
+  },
+  {
+    "level": "7-8",
+    "number": 4,
+    "name": "IV. Przekształcanie wyrażeń algebraicznych. Sumy algebraiczne i działania na nich. Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "porządkuje jednomiany i dodaje jednomiany podobne;"
+      },
+      {
+        "number": 2,
+        "name": "dodaje i odejmuje sumy algebraiczne;"
+      },
+      {
+        "number": 3,
+        "name": "mnoży sumę algebraiczną przez jednomian i dodaje wyrażenia powstałe z mnożenia sum algebraicznych przez jednomian y;"
+      },
+      {
+        "number": 4,
+        "name": "mnoży dwumian przez dwumian, dokonując redukcji wyrazów podobnych;"
+      }
+    ]
+  },
+  {
+    "level": "7-8",
+    "number": 5,
+    "name": "V. Obliczenia procentowe . Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "przedstawia część wielkości jako procent tej wielkości;"
+      },
+      {
+        "number": 2,
+        "name": "oblicza liczbę a równą p procent danej liczby b ;"
+      },
+      {
+        "number": 3,
+        "name": "oblicza , jaki procent danej liczby b stanowi liczba a;"
+      },
+      {
+        "number": 4,
+        "name": ") oblicza liczbę b , której p procent jest równe a ;"
+      },
+      {
+        "number": 5,
+        "name": ") stosuje obliczenia procentowe do rozwiązywania problemów w kontekście praktycznym, również w przypadkach wielokrotnych podwyżek lub obniżek."
+      }
+    ]
+  },
+  {
+    "level": "7-8",
+    "number": 6,
+    "name": "VI. Równania z jedną niewiadomą . Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "sprawdza, czy dana liczb a jest rozwiązaniem równania( stopnia pierwszego, drugiego lub trzeciego) z jedną niewiadomą,"
+      },
+      {
+        "number": 2,
+        "name": "rozwiązuje równania stopnia pierwszego z jedną niewiadomą metoda równań równoważnych;"
+      },
+      {
+        "number": 3,
+        "name": "rozwiązuje równania, które po prostych przekształceniach wyrażeń algebraicznych sprowadzają się do równań pierwszego stopnia z jedną niewiadomą;"
+      },
+      {
+        "number": 4,
+        "name": "rozwiązuje zdania tekstowe za pomocą równań pierwszego stopnia z jedną niewiadomą, w tym także z obliczeniami procentowymi;"
+      },
+      {
+        "number": 5,
+        "name": "przekształca proste wzory, a by wyznaczyć wskazaną wielkość we wzorach geometrycznych (np. pól figur) i fizycznych (np. dotyczących prędkości, drogi i czasu);"
+      }
+    ]
+  },
+  {
+    "level": "7-8",
+    "number": 7,
+    "name": "VII. Proporcjonalność prosta. Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": ") podaje przykłady wielkości wprost proporcjonalnych ;"
+      },
+      {
+        "number": 2,
+        "name": "wyznacza wartość przyjmowaną przez wielkość wprost proporcjonalną w przypadku konkretnej zależności proporcjonalnej;"
+      },
+      {
+        "number": 3,
+        "name": "stosuje podział proporcjonalny;"
+      }
+    ]
+  },
+  {
+    "level": "7-8",
+    "number": 8,
+    "name": "VIII. Własności figur geometrycznych na płaszczyźnie. Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "zna i stosuje twierdzenie o równości kątów wierzchołkowych (z wykorzystaniem zależności pomiędzy kątami przyległymi);"
+      },
+      {
+        "number": 2,
+        "name": "przedstawia na płaszczyźnie dwie proste w różnych położeniach względem siebie, w szczególności proste prostopadłe i proste równoległe;"
+      },
+      {
+        "number": 3,
+        "name": ") korzysta z własności prostych równoległych, w szczególności stosuje równość kątów odpowiadających i naprzemianległych;"
+      },
+      {
+        "number": 4,
+        "name": "zna i stosuje cechy przystawania trójkątów;"
+      },
+      {
+        "number": 5,
+        "name": "zna i stosuje własności trójkątów równoramiennych (równość kątów przy podstawie)"
+      },
+      {
+        "number": 6,
+        "name": "zna nierówność trójkąta+≥i wie, kiedy zachodzi równość;"
+      },
+      {
+        "number": 7,
+        "name": "wykonuje proste obliczenia geometryczne, wykorzystując sumę kątów wewnętrznych trójkąta i własności trójkątów równoramiennych;"
+      },
+      {
+        "number": 8,
+        "name": "zna i stosuje w sytuacjach praktycznych twierdzenie Pitagorasa"
+      },
+      {
+        "number": 9,
+        "name": "przeprowadza dowody geometryczne;"
+      }
+    ]
+  },
+  {
+    "level": "7-8",
+    "number": 9,
+    "name": "IX. Wielokąty. Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "zna pojęcie wielokąta foremne go;"
+      },
+      {
+        "number": 2,
+        "name": "stosuje wzory na pole trójkąta, prostokąta, kwadratu, równoległoboku, rombu, trapezu, a także do wyznaczania długości odcinków;"
+      }
+    ]
+  },
+  {
+    "level": "7-8",
+    "number": 10,
+    "name": "X. Oś liczbowa. Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "zaznacza na osi liczbowej zbiory liczb spełniających warunek taki jak≥ 1 ,5 lub taki jak< − 47 ;"
+      },
+      {
+        "number": 2,
+        "name": "znajduje współrzędne danych (na rysunku) punktów kratowych w układzie współrzędnych na płaszczyźnie;"
+      },
+      {
+        "number": 3,
+        "name": "rysuje w układzie współrzędnych na płaszczyźnie punkty kratowe o danych współrzędnych całkowitych (dowolnego znaku) ;"
+      },
+      {
+        "number": 4,
+        "name": "znajduje środek odcinka, którego końce mają dane współrzędne (całkowite lub wymierne) oraz znajduje współrzędne drugiego końca, gdy dany jest jeden koniec i środek;"
+      },
+      {
+        "number": 5,
+        "name": "ob licza długość odcinka, którego końce są danymi punktami kratowymi w układzie współrzędnych ;"
+      },
+      {
+        "number": 6,
+        "name": "dla danych punktów kratowych A i B znajduje inne punkty kratowe należące do prostej AB ;"
+      }
+    ]
+  },
+  {
+    "level": "7-8",
+    "number": 11,
+    "name": "XI. Geometria przestrzenna. Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "rozpoznaje graniastosłupy i ostrosłupy – w tym proste i prawidłowe;"
+      },
+      {
+        "number": 2,
+        "name": "oblicza pol a powierzchni i objętości graniastosłup ów prostych , prawidłowych i takich, które nie są prawidłowe;"
+      },
+      {
+        "number": 3,
+        "name": "oblicza pol a powierzchni i objętości ostr osłup ów prawidłowych i takich, które nie są prawidłowe;"
+      }
+    ]
+  },
+  {
+    "level": "7-8",
+    "number": 12,
+    "name": "XII. Wprowadzenie do kombinatoryki i rachunku prawdopodobieństwa. Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "wyznacza zbiory obiektów, analizuje i oblicza, ile jest obiektów, mających daną własność, w przypadkach niewymagających stosowania reguł mnożenia i dodawania;"
+      },
+      {
+        "number": 2,
+        "name": "przeprowadza proste doświadczenia losowe , polegające na rzucie monetą , rzucie sześcienną kostką do gry, rzucie kostką wielościenną lub losowaniu kul spośród zestawu kul, analizuje je i oblicza prawdopodobieństwa zdarzeń losowych ;"
+      }
+    ]
+  },
+  {
+    "level": "7-8",
+    "number": 13,
+    "name": "XIII. Odczytywanie danych i elementy statystyki opisow ej. Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "interpretuje dane przedstawione za pomocą tabel, diagramów słupkowych i kołowych, wykresów, w tym także wykresów w układzie współrzędnych ;"
+      },
+      {
+        "number": 2,
+        "name": "tworzy diagramy słupkowe i kołowe oraz wykresy liniowe na podstawie zebranych przez siebie danych lub danych pochodzących z różnych źródeł;"
+      },
+      {
+        "number": 3,
+        "name": "oblicza średnią arytmetyczną kilku liczb;"
+      }
+    ]
+  },
+  {
+    "level": "7-8",
+    "number": 14,
+    "name": "XIV. Długość okręgu i pole koła. Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "oblicza długość okręgu o danym promieniu lub średnicy;"
+      },
+      {
+        "number": 2,
+        "name": "oblicza promień lub średnicę okręgu o danej długości okręgu;"
+      },
+      {
+        "number": 3,
+        "name": "oblicza pole koła o danym promieniu lub średnicy;"
+      },
+      {
+        "number": 4,
+        "name": "oblicza promień lub średnicę koła o danym polu koła;"
+      },
+      {
+        "number": 5,
+        "name": "oblicza pole pierścienia koł owego o danych promieniach lub średnicach obu okrę gów tworzących pierścień;"
+      }
+    ]
+  },
+  {
+    "level": "7-8",
+    "number": 15,
+    "name": "XV. Symetrie. Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "rozpoznaje symetralną odcinka i dwusieczną kąta;"
+      },
+      {
+        "number": 2,
+        "name": "zna i stosuje w zadaniach podstawowe własności symetralnej odcinka i dwusiecznej kąta;"
+      },
+      {
+        "number": 3,
+        "name": "rozpoznaje figury o siowosymetryczne i wskazuje ich o sie symetrii oraz uzupełnia figurę do figury o siowosymetrycznej przy danych: osi symetrii figury i części figury;"
+      },
+      {
+        "number": 4,
+        "name": "rozpoznaje figury środkowosymetryczne i wskazuje ich środ ki symetrii ;"
+      }
+    ]
+  },
+  {
+    "level": "7-8",
+    "number": 16,
+    "name": "XVI. Zaawansowane metody zliczania. Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "stosuje regułę mnożenia do zliczania par elementów o określonych właściwościach;"
+      },
+      {
+        "number": 2,
+        "name": "stosuje regułę dodawania i mnożenia do zliczania par elementów w sytuacjach wymagających rozważenia kilku przypadków."
+      }
+    ]
+  },
+  {
+    "level": "7-8",
+    "number": 17,
+    "name": "XVII. Rachunek prawdopodobieństwa. Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "oblicza prawdopodobieństwa zdarzeń w doświadczeniach polegaj ących na rzucie dwiema kostkami lub losowaniu dwóch elementów ze zwracaniem ;"
+      },
+      {
+        "number": 2,
+        "name": "oblicza prawdopodobieństwa zdarzeń w doświadczeniach polegaj ących na losowaniu dwóch elementów bez zwracani a;"
+      }
+    ]
+  }
+]

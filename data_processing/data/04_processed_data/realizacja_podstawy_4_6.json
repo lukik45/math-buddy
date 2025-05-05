@@ -1,0 +1,508 @@
+[
+  {
+    "level": "4-6",
+    "number": 1,
+    "name": "I. Liczby naturalne w dziesiątkowym układzie pozycyjnym. Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "odczytuje i zapisuje liczby naturalne wielocyfrowe"
+      },
+      {
+        "number": 2,
+        "name": "interpretuje liczby naturalne na osi liczbowej"
+      },
+      {
+        "number": 3,
+        "name": "porównuje liczby naturalne"
+      },
+      {
+        "number": 4,
+        "name": "zaokrągla liczby naturalne"
+      },
+      {
+        "number": 5,
+        "name": "liczby w zakresie do 3000 zapisane w systemie rzymskim przedstawia w systemie dziesiątkowym, a zapisane w systemie dziesiątkowym przedstawia w systemie rzymskim"
+      }
+    ]
+  },
+  {
+    "level": "4-6",
+    "number": 2,
+    "name": "II. Działania na liczbach naturalnych. Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "dodaje i odejmuje w pamięci liczby naturalne dwucyfrowe lub większe, liczbę jednocyfrową dodaje do dowolnej liczby naturalnej i odejmuje od dowolnej liczby naturalnej"
+      },
+      {
+        "number": 2,
+        "name": "dodaje i odejmuje liczby naturalne wielocyfrowe pisemnie i za pomocą kalkulatora"
+      },
+      {
+        "number": 3,
+        "name": "mnoży i dzieli liczbę naturalną przez liczbę naturalną jednocyfrową, dwucyfrową lub trzycyfrową pisemnie, w pamięci (w najprostszych przykładach) i za pomocą kalkulatora (w trudniejszych przykładach)"
+      },
+      {
+        "number": 4,
+        "name": "wykonuje dzielenie z resztą liczb naturalnych"
+      },
+      {
+        "number": 5,
+        "name": "stosuje wygodne dla niego sposoby ułatwiające obliczenia, w tym przemienność i łączność dodawania i mnożenia oraz rozdzielność mnożenia względem dodawania"
+      },
+      {
+        "number": 6,
+        "name": "porównuje różnicowo i ilorazowo liczby naturalne"
+      },
+      {
+        "number": 7,
+        "name": "rozpoznaje liczby naturalne podzielne przez 2, 3, 4, 5, 9, 10, 100"
+      },
+      {
+        "number": 8,
+        "name": "rozpoznaje liczbę złożoną, gdy jest ona jednocyfrowa lub dwucyfrowa, a także, gdy na istnienie dzielnika wskazuje poznana cecha podzielności"
+      },
+      {
+        "number": 9,
+        "name": "rozkłada liczby dwucyfrowe na czynniki pierwsze"
+      },
+      {
+        "number": 10,
+        "name": "obl icza kwadraty i sześciany liczb naturalnych"
+      },
+      {
+        "number": 11,
+        "name": "stosuje reguły dotyczące kolejności wykonywania działań"
+      },
+      {
+        "number": 12,
+        "name": "szacuje wyniki działań"
+      },
+      {
+        "number": 13,
+        "name": "znajduje największy wspólny dzielnik (NDW) w sytuacjach nie trudniejszych niż NDW(600, 72), NDW(1140, 567), NDW(910, 2016) oraz wyznacza najmniejszą wspólną wielokrotność dwóch liczb naturalnych metodą rozkładu na czynniki"
+      },
+      {
+        "number": 14,
+        "name": "rozpoznaje wielokrotności danej liczby, kwadraty, sześciany, liczby pierwsze, liczby złożone"
+      },
+      {
+        "number": 15,
+        "name": "odpowiada na pytania dotyczące liczebności zbiorów różnych rodzajów liczb wśród liczb z pewnego niewielkiego zakresu (np. od 1 do 200 czy od 100 do 1000), o ile liczba w odpowiedzi jest na tyle mała, że wszystkie rozważane liczby uczeń może wypisać"
+      },
+      {
+        "number": 16,
+        "name": "rozkłada liczby naturalne na czynniki pierwsze w przypadku, gdy co najwyżej jeden z tych czynników jest liczbą większą niż 10"
+      },
+      {
+        "number": 17,
+        "name": "wyznacza wynik dzielenia z resztą liczby a przez liczbę b i zapisuje liczbę a w postaci:=∙+"
+      }
+    ]
+  },
+  {
+    "level": "4-6",
+    "number": 3,
+    "name": "III. Liczby całkowite. Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "podaje praktyczne przykłady stosowania liczb ujemnych"
+      },
+      {
+        "number": 2,
+        "name": "interpretuje liczby całkowite na osi liczbowej"
+      },
+      {
+        "number": 3,
+        "name": "oblicza wartość bezwzględną"
+      },
+      {
+        "number": 4,
+        "name": "porównuje liczby całkowite"
+      },
+      {
+        "number": 5,
+        "name": "wykonuje proste rachunki pamięciowe na liczbach całkowitych"
+      }
+    ]
+  },
+  {
+    "level": "4-6",
+    "number": 4,
+    "name": "IV. Ułamki zwykłe i dziesiętne. Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "opisuje część danej całości za pomocą ułamka"
+      },
+      {
+        "number": 2,
+        "name": "przedstawia ułamek jako iloraz liczb naturalnych, a iloraz liczb naturalnych jako ułamek"
+      },
+      {
+        "number": 3,
+        "name": "skraca i rozszerza ułamki zwykłe"
+      },
+      {
+        "number": 4,
+        "name": "sprowadza ułamki zwykłe do wspólnego mianownika"
+      },
+      {
+        "number": 5,
+        "name": "przedstawia ułamki niewłaściwe w postaci liczby mieszanej a liczbę mieszaną w postaci ułamka niewłaściwego"
+      },
+      {
+        "number": 6,
+        "name": "zapisuje wyrażenia dwumianowane w postaci ułamka dziesiętnego i odwrotnie"
+      },
+      {
+        "number": 7,
+        "name": "zaznacza ułamki zwykłe i dziesiętne na osi liczbowej oraz odczytuje ułamki zwykłe i dziesiętne zaznaczone na osi"
+      },
+      {
+        "number": 8,
+        "name": "zapisuje ułamek dziesiętny skończony w postaci ułamka zwykłego"
+      },
+      {
+        "number": 9,
+        "name": "zamienia ułamki zwykłe o mianownikach będących dzielnikami liczb 10, 100, 1000 itd. na ułamki dziesiętne skończone dowolną metodą (przez rozszerzanie ułamków zwykłych, dzielenie licznika przez mianownik w pamięci, pisemnie lub za pomocą kalkulatora)"
+      },
+      {
+        "number": 10,
+        "name": "zapisuje ułamki zwykłe o mianownikach innych niż wymienione w pkt 9 w postaci rozwinięcia dziesiętnego nieskończonego (z użyciem trzech kropek po ostatniej cyfrze), dzieląc licznik przez mianownik w pamięci, pisemnie lub za pomocą kalkulatora"
+      },
+      {
+        "number": 11,
+        "name": "zaokrągla ułamki dzi esiętne"
+      },
+      {
+        "number": 12,
+        "name": "porównuje ułamki (zwykłe i dziesiętne)"
+      },
+      {
+        "number": 13,
+        "name": "oblicza liczbę, której część jest podana (wyznacza całość, z której określono część za pomocą ułamka)"
+      },
+      {
+        "number": 14,
+        "name": "wyznacza liczbę, która powstaje po powiększeniu lub pomniejszeniu o pewną część innej liczby"
+      }
+    ]
+  },
+  {
+    "level": "4-6",
+    "number": 5,
+    "name": "V. Działania na ułamkach zwykłych i dziesiętnych. Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "dodaje, odejmuje, mnoży i dzieli ułamki zwykłe o mianownikach jedno lub dwucyfrowych, a także liczby mieszane"
+      },
+      {
+        "number": 2,
+        "name": "dodaje, odejmuje, mnoży i dzieli ułamki dziesiętne w pamięci (w najprostszych przykładach), pisemnie i za pomocą kalkulatora (w trudniejszych przykładach)"
+      },
+      {
+        "number": 3,
+        "name": "wykonuje nieskomplikowane rachunki, w których występują jednocześnie ułamki zwykłe i dzi esiętne"
+      },
+      {
+        "number": 4,
+        "name": "porównuje różnicowo ułamki"
+      },
+      {
+        "number": 5,
+        "name": "oblicza ułamek danej liczby naturalnej"
+      },
+      {
+        "number": 6,
+        "name": "oblicza kwadraty i sześciany ułamków zwykłych i dziesiętnych oraz liczb mieszanych"
+      },
+      {
+        "number": 7,
+        "name": "oblicza wartości prostych wyrażeń arytmetycznych, stosując reguły dotyczące kolejności wykonywania działań"
+      },
+      {
+        "number": 8,
+        "name": "wykonuje działania na ułamkach dziesiętnych, używając własnych, poprawnych strategii lub z pomocą kalkulatora"
+      },
+      {
+        "number": 9,
+        "name": "oblicz wartość wyrażeń arytmetycznych, wymagających stosowania działań arytmetycznych na liczbach całkowitych lub liczbach zapisanych za pomocą ułamków zwykłych, liczb mieszanych i ułamków dziesiętnych, także wymiernych ujemnych o stopniu trudności nie większym niż w przykładzie − 12 : 0, 25 + 5, 25: 0 , 05 − 7 12 ∙ (2 , 5 − 3 23) + 1, 25"
+      }
+    ]
+  },
+  {
+    "level": "4-6",
+    "number": 6,
+    "name": "VI. Elementy algebry. Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "korzysta z nieskomplikowanych wzorów, w których występują oznaczenia literowe, opisuje wzór słowami"
+      },
+      {
+        "number": 2,
+        "name": "stosuje oznaczenia literowe nieznanych wielkości liczbowych i zapisuje proste wyrażenie algebraiczne na podstawie informacji osadzonych w kontekście praktycznym"
+      },
+      {
+        "number": 3,
+        "name": "rozwiązuje równania pierwszego stopnia z jedną niewiadomą występującą po jednej stronie równania (poprzez zgadywanie, dopełnianie lub wykonanie działania odwrotnego), na przykład − 2 = 4. 3"
+      }
+    ]
+  },
+  {
+    "level": "4-6",
+    "number": 7,
+    "name": "VII. Proste i odcinki. Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "rozpoznaje i nazywa figury: punkt, prosta, półprosta, odcinek"
+      },
+      {
+        "number": 2,
+        "name": "rozpoznaje odcinki i proste prostopadłe i równoległe"
+      },
+      {
+        "number": 3,
+        "name": "rysuje pary odcinków prostopadłych i równoległych"
+      },
+      {
+        "number": 4,
+        "name": "mierzy długość odcinka z dokładnością do 1 milimetra"
+      },
+      {
+        "number": 5,
+        "name": "znajduje odległość punktu od prostej"
+      }
+    ]
+  },
+  {
+    "level": "4-6",
+    "number": 8,
+    "name": "VIII. Kąty. Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "wskazuje w dowolnym kącie ramiona i wierzchołek"
+      },
+      {
+        "number": 2,
+        "name": "mierzy kąty mniejsze od 180 stopni z dokładnością do 1 stopnia"
+      },
+      {
+        "number": 3,
+        "name": "rysuje kąt o mierze mniejszej niż 180 stopni"
+      },
+      {
+        "number": 4,
+        "name": "rozpoznaje kąt prosty, ostry i rozwarty"
+      },
+      {
+        "number": 5,
+        "name": "porównuje kąty"
+      },
+      {
+        "number": 6,
+        "name": "rozpoznaje kąty wierzchołkowe i kąty przyległe oraz korzysta z ich własności"
+      }
+    ]
+  },
+  {
+    "level": "4-6",
+    "number": 9,
+    "name": "IX. Wielokąty, koła, okręgi. Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "rozpoznaje i nazywa trójkąty ostrokątne, prostokątne, rozwartokątne, równoboczne i równoramienne"
+      },
+      {
+        "number": 2,
+        "name": "konstruuje trójkąt o trzech danych bokach i ustala możliwość zbudowania trójkąta na podstawie nierówności trójkąta"
+      },
+      {
+        "number": 3,
+        "name": "stosuje twierdzenie o sumie kątów wewnętrznych trójkąta"
+      },
+      {
+        "number": 4,
+        "name": "rozpoznaje i nazywa: kwadrat, prostokąt, romb, równoległobok i trapez"
+      },
+      {
+        "number": 5,
+        "name": "zna najważniejsze własności kwadratu, prostokąta, rombu, równoległoboku i trapezu, rozpoznaje figury osiowosymetryczne i wskazuje osie symetrii"
+      },
+      {
+        "number": 6,
+        "name": "wskazuje na rysunku cięciwę, średnicę oraz promień koła i okręgu"
+      },
+      {
+        "number": 7,
+        "name": "rysuje cięciwę koła i okręgu, a także, jeżeli dany jest środek okręgu, promień i średnicę"
+      },
+      {
+        "number": 8,
+        "name": "w trójkącie równoramiennym wyznacza przy danym jednym kącie miary pozostałych katów oraz przy danym obwodzie i długości jednego boku długości pozostałych boków"
+      }
+    ]
+  },
+  {
+    "level": "4-6",
+    "number": 10,
+    "name": "X. Bryły. Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "rozpoznaje graniastosłupy proste, ostrosłupy, walce, stożki i kule w sytuacjach praktycznych i wskazuje te bryły wśród innych modeli brył"
+      },
+      {
+        "number": 2,
+        "name": "wskazuje wśród graniastosłupów prostopadłościany i sześciany i uzasadnia swój wybór"
+      },
+      {
+        "number": 3,
+        "name": "rozpoznaje siatki graniastosłupów prostych i ostrosłupów"
+      },
+      {
+        "number": 4,
+        "name": "rysuje siatki prostopadłościanów"
+      },
+      {
+        "number": 5,
+        "name": "wykorzystuje podane zależności między długościami krawędzi graniastosłupa do wyznaczania długości poszczególnych krawędzi"
+      }
+    ]
+  },
+  {
+    "level": "4-6",
+    "number": 11,
+    "name": "XI. Obliczenia w geometrii. Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "oblicza obwód wielokąta o danych długościach boków"
+      },
+      {
+        "number": 2,
+        "name": "oblicza pola: kwadratu, prostokąta, rombu, równoległoboku, trójkąta, trapezu, przedstawionych na rysunku oraz w sytuacjach praktycznych, w tym także danych wymagających zamiany jednostek i w sytuacjach z nietypowymi wymiarami, na przykład pole trójkąta o boku 1 km i wysokości 1mm"
+      },
+      {
+        "number": 3,
+        "name": "stosuje jednostki pola: m2, cm2, km2, mm2, dm2, ar, hektar (bez zamiany jednostek w trakcie obliczeń)"
+      },
+      {
+        "number": 4,
+        "name": "oblicza pola wielokątów metodą podziału na mniejsze wielokąty lub uzupełniania do większych wielokątów"
+      },
+      {
+        "number": 5,
+        "name": "oblicza objętość i pole powierzchni prostopadłościanu przy danych długościach krawędzi"
+      },
+      {
+        "number": 6,
+        "name": "stosuje jednostki objętości i pojemności: litr, mililitr, dm3, m3, cm3,"
+      },
+      {
+        "number": 7,
+        "name": "oblicza miary kątów, stosując przy tym poznane własności kątów i wielokątów"
+      }
+    ]
+  },
+  {
+    "level": "4-6",
+    "number": 12,
+    "name": "XII. Obliczenia praktyczne. Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "interpretuje 100% danej wielkości jako całość, 50% – jako połowę, 25% – jako jedną czwartą, 10% – jako jedną dziesiątą, a 1% – jako setną część danej wielkości liczbowej"
+      },
+      {
+        "number": 2,
+        "name": "w przypadkach osadzonych w kontekście praktycznym oblicza procent danej wielkości w stopniu trudności typu 50%, 10%, 20%"
+      },
+      {
+        "number": 3,
+        "name": "wykonuje proste obliczenia zegarowe na godzinach, minutach i sekundach"
+      },
+      {
+        "number": 4,
+        "name": "wykonuje proste obliczenia kalendarzowe na dniach, tygodniach, miesiącach, latach"
+      },
+      {
+        "number": 5,
+        "name": "odczytuje temperaturę (dodatnią i ujemną)"
+      },
+      {
+        "number": 6,
+        "name": "zamienia i prawidłowo stosuje jednostki długości: metr, centymetr, decymetr, milimetr, kilometr"
+      },
+      {
+        "number": 7,
+        "name": "zamienia i prawidłowo stosuje jednostki masy: gram , kilogram, dekagram, tona"
+      },
+      {
+        "number": 8,
+        "name": "oblicza rzeczywistą długość odcinka, gdy dana jest jego długość w skali, oraz długość odcinka w skali, gdy dana jest jego rzeczywista długość"
+      },
+      {
+        "number": 9,
+        "name": "w sytuacji praktycznej oblicza: drogę przy danej prędkości i danym czasie, prędkość przy danej drodze i danym czasie, czas przy danej drodze i danej prędkości oraz stosuje jednostki prędkości: km/h i m/s"
+      }
+    ]
+  },
+  {
+    "level": "4-6",
+    "number": 13,
+    "name": "XIII. Elementy statystyki opisowej. Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "gromadzi i porządkuje dane"
+      },
+      {
+        "number": 2,
+        "name": "odczytuje i interpretuje dane przedstawione w tekstach, tabelach, diagramach i na wykresach"
+      }
+    ]
+  },
+  {
+    "level": "4-6",
+    "number": 14,
+    "name": "XIV. Zadania tekstowe. Uczeń:",
+    "requirements": [
+      {
+        "number": 1,
+        "name": "czyta ze zrozumieniem tekst zawierający informacje liczbowe"
+      },
+      {
+        "number": 2,
+        "name": "wykonuje wstępne czynności ułatwiające rozwiązanie zadania, w tym rysunek pomocniczy lub wygodne dla niego zapisanie informacji i danych z treści zadania"
+      },
+      {
+        "number": 3,
+        "name": "dostrzega zależności między podanymi informacjami"
+      },
+      {
+        "number": 4,
+        "name": "dzieli rozwiązanie zadania na etapy, stosując własne, poprawne, wygodne dla niego strategie rozwiązania"
+      },
+      {
+        "number": 5,
+        "name": "do rozwiązywania zadań osadzonych w kontekście praktycznym stosuje poznaną wiedzę z zakresu arytmetyki i geometrii oraz nabyte umiejętności rachunkowe, a także własne poprawne metody"
+      },
+      {
+        "number": 6,
+        "name": "weryfikuje wynik zadania tekstowego, oceniając sensowność rozwiązania np. poprzez szacowanie, sprawdzanie wszystkich warunków zadania, ocenianie rzędu wielkości otrzymanego wyniku"
+      },
+      {
+        "number": 7,
+        "name": "układa zadania i łamigłówki, rozwiązuje je; stawia nowe pytania związane z sytuacją w rozwiązywanym zadaniu"
+      }
+    ]
+  }
+]
