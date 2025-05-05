@@ -110,3 +110,7 @@ server.jvm.additional=-Djol.skipHotspotSAAttach=true
 - fix the llm prompts and chains
     - use pydantic parsers to create partial prompts
     
+## 2025-05-03
+- trying to deploy on koyeb
+- openai unsufficient quota
+- testing with a smaller model - doesnt return valid json

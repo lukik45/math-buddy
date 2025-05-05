@@ -8,7 +8,7 @@ class SolveRequest(BaseModel):
     problem: str
 
 class SolveResponse(BaseModel):
-    steps: list
+    steps: dict
 
 @router.post("/solve", response_model=SolveResponse)
 async def solve(req: SolveRequest):
