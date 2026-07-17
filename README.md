@@ -1,8 +1,5 @@
 # Math Buddy - Problem Solver
 
-> Demo version deployed on Kayeb. The service might be scaled to 0 so please wait a moment until the service is up again.
-> [Link to Demo](https://conservative-kamilah-lukasz-kosturski-726f725a.koyeb.app/frontend/Problem_Solver)
-
 
 A tool that helps students who have fallen behind by solving math problems step-by-step and connecting each step to relevant skills from the educational curriculum.
 
